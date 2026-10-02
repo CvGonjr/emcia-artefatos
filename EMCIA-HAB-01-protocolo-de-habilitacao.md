@@ -3,8 +3,8 @@
 
 | Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Código** | EMCIA-HAB-01 | **Versão** | 0.1 |
-| **Data** | 11/09/2026 | **Estado** | Em revisão |
+| **Código** | EMCIA-HAB-01 | **Versão** | 0.2 |
+| **Data** | 25/09/2026 | **Estado** | Em revisão |
 | **Responsável** | Celso do Vale | **Aprovação** | pendente |
 | **Fase** | Anterior a F0 | **Passo** | Não se aplica |
 
@@ -76,14 +76,14 @@ As etapas são sequenciais e a ordem tem razão de ser: qualificar antes de form
 > *Nota:* Registrar o acesso negado importa tanto quanto o concedido. É o que permite, ao final, distinguir uma lacuna do diagnóstico de uma falha do método.
 
 #### 3.3.4 Etapa 0d — Abertura do caso
-* **Objetivo:** Preparar o ambiente de trabalho e abrir o registro de estado antes que qualquer informação do cliente seja processada.
+* **Objetivo:** Preparar o ambiente de trabalho e abrir o registro de estado antes que dados e documentos operacionais do cliente sejam processados. Informações administrativas de habilitação seguem a exceção da seção 3.7.
 * **Atividades:** Abrir o registro de estado do caso e versioná-lo; criar o repositório do engajamento; carregar a base de referência do setor; ativar os campos de procedência e o registro de desvio de camada; conferir as habilidades carregadas contra o catálogo.
 * **Natureza:** Automatizada. Execução determinística sobre uma lista de conferência.
 * **Artefato:** Caso aberto, com estado inicial datado e registro de conferência do ambiente.
 * **Passagem:** O estado inicial está selado e os campos de procedência estão ativos.
 * **Recusa:** Não há recusa nesta etapa. Havendo falha, a etapa é repetida.
 
-> *Nota:* A abertura precede o primeiro contato substantivo porque informação recebida antes de o registro de procedência existir entra no engajamento sem marca de origem, e nada a recupera depois.
+> *Nota:* A abertura precede o processamento substantivo dos dados operacionais. O expediente administrativo anterior a 0d preserva originais, origem e datas conforme a seção 3.7; sua existência não equivale a caso aberto.
 
 ### 3.4 Critério de prosseguimento
 Concluídas as quatro etapas, a habilitação produz um de três desfechos, registrado por escrito e comunicado ao patrocinador.
@@ -106,6 +106,18 @@ Todos os demais instrumentos do método variam de profundidade conforme o nível
 
 O que varia é o esforço concreto de cumprir cada etapa. Em uma organização informal, nomear o patrocinador é uma conversa; em uma organização regulada, pode envolver comitê e parecer jurídico. A exigência é a mesma; o caminho até satisfazê-la, não.
 
+### 3.7 Expediente administrativo anterior ao caso
+
+É permitido processar exclusivamente informações administrativas da habilitação antes de 0d, em expediente separado, fora dos repositórios da ferramenta, do método e do caso. As condições de tratamento precisam estar registradas antes da coleta pelo MCP, indicando finalidade, escopo administrativo, ambiente permitido e evidência da decisão humana. A exceção não autoriza processar bases, anexos ou documentos operacionais do cliente antes de 0d.
+
+O expediente preserva perguntas, respostas originais, identificação de formulário e submissão, rodadas de esclarecimento, decisões humanas, versões dos documentos e evidências de assinatura. Não atribui procedência por julgamento de modelo. Na abertura do caso, o material é importado pelos mecanismos autorizados, conservando sua origem.
+
+O identificador do futuro caso pode ser reservado na habilitação. Os documentos emitidos devem indicar explicitamente que o identificador está reservado e que o caso ainda não foi aberto.
+
+A assinatura inicial ocorre exclusivamente pelo painel da ferramenta escolhida pelo cliente, sem integração com o plugin. Cliente e engenheiro definem quem opera o painel e devolve os documentos assinados e suas evidências. A passagem de 0b exige conferência humana das versões vigentes e dos signatários competentes nos três documentos. O registro dessa conferência não substitui a assinatura.
+
+O template HAB-01 permanece com seu conteúdo atual. A divergência entre sua descrição genérica e a exigência de fases e entregáveis deste protocolo deve ser examinada na revisão humana antes de emissão; não pode ser resolvida por inferência do agente.
+
 ## 4. Condição de aceite
 Este artefato está pronto quando:
 1. As quatro etapas têm objetivo, atividades, artefato, condição de passagem e condição de recusa declarados;
@@ -123,3 +135,5 @@ Este artefato está pronto quando:
 | Versão | Data | Autor | Descrição da alteração | Aprovação |
 | :---: | :---: | :--- | :--- | :---: |
 | **0.1** | 11/09/2026 | Celso do Vale | Versão inicial: quatro pré-requisitos, etapas 0a a 0d, três desfechos e regra de perda superveniente | — |
+
+**Registro da revisão 0.2:** escopo administrativo anterior a 0d, reserva de identificador e assinatura por painel aprovados pelo usuário na sessão de 25/09/2026. Mantida a revisão humana da carta. Esta revisão não atribui autoria ou aprovação nominal a uma pessoa não identificada na sessão e não altera a aprovação geral pendente do documento.
