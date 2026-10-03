@@ -3,9 +3,9 @@
 
 | Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Código** | EMCIA-TRI-01 | **Versão** | 0.2 |
-| **Data** | 29/09/2026 | **Estado** | Em revisão |
-| **Responsável** | Celso do Vale | **Aprovação** | pendente |
+| **Código** | EMCIA-TRI-01 | **Versão** | 0.3 |
+| **Data** | 2026-10 | **Estado** | Aprovado |
+| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale — 03/10/2026 |
 | **Fase** | F0 — Enquadramento | **Passo** | Triagem |
 
 ---
@@ -135,3 +135,4 @@ Este artefato está pronto quando:
 | :---: | :---: | :--- | :--- | :---: |
 | **0.1** | 11/09/2026 | Celso do Vale | Versão inicial: nove perguntas com sigla por eixo, regra de leitura, tratamento de resposta ausente, registro obrigatório, verificação posterior e reclassificação | — |
 | **0.2** | 29/09/2026 | Celso do Vale | Consolidação da Sprint 4 (registro da ação 4.3, item A1): conferência da escala e da regra de leitura; recusa de eixo fora da escala e de nível divergente da conta; registro do nível pelo engenheiro | — |
+| 0.3 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale; metadados de controle e histórico atualizados | Celso do Vale — 03/10/2026 |
