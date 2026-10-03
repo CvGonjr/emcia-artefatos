@@ -3,8 +3,8 @@
 
 | Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Código** | EMCIA-HAB-01 | **Versão** | 0.2 |
-| **Data** | 25/09/2026 | **Estado** | Em revisão |
+| **Código** | EMCIA-HAB-01 | **Versão** | 0.3 |
+| **Data** | 2026-10 | **Estado** | Em revisão |
 | **Responsável** | Celso do Vale | **Aprovação** | pendente |
 | **Fase** | Anterior a F0 | **Passo** | Não se aplica |
 
@@ -14,7 +14,7 @@
 Estabelecer o que precisa estar satisfeito antes de o percurso começar, e o que fazer quando não está. O protocolo antecede a triagem e determina se o engajamento se inicia, se inicia com restrição registrada, ou se não se inicia.
 
 ## 2. Escopo e aplicação
-Aplica-se a todo engajamento, sem exceção e sem calibragem por nível de complexidade. Encerra-se com a abertura do caso, ponto a partir do qual a Fase F0 tem início.
+Aplica-se a todo engajamento, sem exceção e sem calibragem por nível de complexidade. Encerra-se com o caso aberto, a habilitação importada e o estado inicial selado, condições anteriores ao início de F0.
 
 Não se aplica à negociação comercial nem à proposta. O protocolo pressupõe que a organização já decidiu contratar o serviço; o que ele verifica é se as condições de execução existem.
 
@@ -43,7 +43,7 @@ As etapas são sequenciais e a ordem tem razão de ser: qualificar antes de form
 | **0a** | Se há engajamento possível | Registro de contato qualificado | Híbrida |
 | **0b** | Se o escopo está formalizado | Carta de escopo assinada | Humana |
 | **0c** | Se o acesso é efetivo | Matriz de acessos | Humana |
-| **0d** | Se o ambiente está preparado | Caso aberto e selado | Automatizada |
+| **0d** | Se o ambiente está preparado | Caso aberto, habilitação importada e estado selado | Determinística, com atos humanos |
 
 #### 3.3.1 Etapa 0a — Qualificação do contato
 * **Objetivo:** Verificar se existe engajamento possível antes de gastar esforço de formalização.
@@ -77,13 +77,15 @@ As etapas são sequenciais e a ordem tem razão de ser: qualificar antes de form
 
 #### 3.3.4 Etapa 0d — Abertura do caso
 * **Objetivo:** Preparar o ambiente de trabalho e abrir o registro de estado antes que dados e documentos operacionais do cliente sejam processados. Informações administrativas de habilitação seguem a exceção da seção 3.7.
-* **Atividades:** Abrir o registro de estado do caso e versioná-lo; criar o repositório do engajamento; carregar a base de referência do setor; ativar os campos de procedência e o registro de desvio de camada; conferir as habilidades carregadas contra o catálogo.
-* **Natureza:** Automatizada. Execução determinística sobre uma lista de conferência.
-* **Artefato:** Caso aberto, com estado inicial datado e registro de conferência do ambiente.
-* **Passagem:** O estado inicial está selado e os campos de procedência estão ativos.
-* **Recusa:** Não há recusa nesta etapa. Havendo falha, a etapa é repetida.
+* **Atividades:** Abrir o caso por `novo-caso.sh`, que usa `abrir_caso.py` para conferir e copiar o pacote do método e seu manifesto; planejar e provisionar canais conforme o EMCIA-CAN-01; definir os ids pelo terminal humano antes da importação, ou fornecer a declaração por `--canais`; importar obrigatoriamente o expediente por `importar_habilitacao.py`; gravar o rascunho de 00-habilitacao em caso pelo validador de procedência; selar o estado inicial por `selar.py`; conferir o estado antes de F0.
+* **Natureza:** Conferências determinísticas, com importação e definição de canais humanas e confirmação no chat antes dos efeitos externos. O checklist está no EMCIA-ROT-02.
+* **Artefato:** Caso com método e manifesto conferidos, canais definidos, registro da importação, 00-habilitacao gravado pelo validador e estado inicial selado.
+* **Passagem:** A importação está registrada e existe selo posterior confirmado no histórico Git, cujo commit contém o evento HabilitacaoImportada e o prefixo correspondente da trilha. Os campos de procedência estão ativos e os canais exigidos para F0 estão íntegros.
+* **Recusa técnica:** Manifesto ou expediente incoerente, ausência de canais, importação sem selo confirmado ou histórico Git inacessível impede a passagem e produz negativa registrada. Corrigir a causa e repetir a operação; não iniciar F0 enquanto a condição persistir.
 
 > *Nota:* A abertura precede o processamento substantivo dos dados operacionais. O expediente administrativo anterior a 0d preserva originais, origem e datas conforme a seção 3.7; sua existência não equivale a caso aberto.
+
+A abertura pode receber o expediente para conferir prontidão, identidade reservada e responsável; isso não substitui a importação humana. O importador copia somente os três PDFs assinados, suas evidências e a matriz de acessos, conservando origem e hashes. Não se coloca documentação operacional diretamente em fontes: a coleta preparada passa pelo recebimento humano. O manifesto fixa o pacote copiado, sem autenticar sua origem remota. Um evento SeloAplicado deixado por commit recusado não satisfaz a passagem.
 
 ### 3.4 Critério de prosseguimento
 Concluídas as quatro etapas, a habilitação produz um de três desfechos, registrado por escrito e comunicado ao patrocinador.
@@ -91,10 +93,16 @@ Concluídas as quatro etapas, a habilitação produz um de três desfechos, regi
 | Desfecho | Quando se aplica | Consequência |
 | :--- | :--- | :--- |
 | **Prosseguir** | Os quatro pré-requisitos estão satisfeitos e nenhum acesso essencial foi negado | A Fase F0 tem início. |
-| **Prosseguir com restrição** | Os quatro pré-requisitos estão satisfeitos, mas há acesso negado que limita a verificação | O percurso segue, e a restrição consta em todos os entregáveis, delimitando o que não pôde ser verificado. |
+| **Prosseguir com restrição** | Os quatro pré-requisitos estão satisfeitos, mas há acesso negado que limita a verificação | O percurso segue; em P2 cada restrição é vinculada à fonte afetada ou dispensada com motivo. Nos entregáveis, a marca acompanha cada asserção que cita fonte restrita. |
 | **Não prosseguir** | Falta ao menos um dos quatro pré-requisitos | O engajamento não começa. O registro da recusa é entregue à organização, com o que precisaria mudar. |
 
 **Regra:** A restrição registrada não pode ser convertida em ressalva genérica no final do relatório. Ela acompanha o item específico que ficou sem verificação, no ponto do entregável em que esse item aparece.
+
+Cada acesso negado registrado em 0c recebe identificador RH-xx na importação. Em P2, o engenheiro executa o ato humano `vincular-restricao`, por `restricoes.py`, para vinculá-lo a uma ou mais fontes F-xxx curadas segundo o EMCIA-CTX-01, ou dispensá-lo com motivo quando nenhuma fonte do recorte é afetada. O registro conserva importação, versão, autor nomeado, data e histórico. A dispensa não concede o acesso negado nem verifica seu conteúdo.
+
+P2 não encerra enquanto houver RH pendente. Sem restrição importada, a cobertura é vazia. Revisão de vínculo ou dispensa exige decisão explícita que identifique a restrição e a versão anterior, com decisor, motivo e data. Após P2, só se revisa um vínculo existente; não se cria vínculo inicial tardio.
+
+Na materialização de E1–E5, cada asserção que cita fonte restrita recebe, no próprio ponto em que aparece, a marca com RH, F, item negado, restrição e motivo. As origens são declaradas por registro ou por campo; não se deduz vínculo por nome ou semelhança de texto. Uma referência REC depende de relação explícita com a fonte F curada e de recebimento íntegro. Relação ausente recusa nomeando a asserção. RH pendente bloqueia a materialização antes da escrita e preserva a versão anterior; por isso E1 de caso restrito aguarda a resolução em P2. O contrato de destino antes pendente na decisão 039 foi completado pela decisão 041.
 
 ### 3.5 Perda superveniente de pré-requisito
 Pré-requisito satisfeito na habilitação pode se perder durante o percurso: o patrocinador deixa a organização, o executor é realocado, um acesso é revogado. Nesses casos o percurso é suspenso e retorna à etapa 0c, que é onde os três primeiros pré-requisitos se materializam.
@@ -128,12 +136,14 @@ Este artefato está pronto quando:
 * **AI Risk Management Framework**, NIST (2023) — função de governança: papéis e autorizações definidos antes do tratamento da informação
 * **Product Leadership**, Cooper (1999) — portão como ponto de decisão, e não como formalidade
 * **The Tacit Dimension**, Polanyi (1966)
-* **Artefatos relacionados:** EMCIA-MET-01, EMCIA-CAT-01, EMCIA-TRI-01, EMCIA-ESC-01.
+* **Artefatos relacionados:** EMCIA-MET-01, EMCIA-CAT-01, EMCIA-TRI-01, EMCIA-ESC-01, EMCIA-ROT-02, EMCIA-CAN-01, EMCIA-MAN-01, EMCIA-CTX-01 e EMCIA-TRA-01.
+* **Referência operacional:** emcia-marketplace, decisões 039–042 e playbook 0.4.18.
 
 ## 6. Histórico de revisões
 
 | Versão | Data | Autor | Descrição da alteração | Aprovação |
 | :---: | :---: | :--- | :--- | :---: |
 | **0.1** | 11/09/2026 | Celso do Vale | Versão inicial: quatro pré-requisitos, etapas 0a a 0d, três desfechos e regra de perda superveniente | — |
+| 0.3 | 2026-10 | Celso do Vale | 0d com abertura conferida, canais antes ou junto da importação, gravação validada e selo confirmado no Git; vínculo RH → F e dispensa humana em P2, com marca localizada; remissão ao ROT-02 | pendente |
 
 **Registro da revisão 0.2:** escopo administrativo anterior a 0d, reserva de identificador e assinatura por painel aprovados pelo usuário na sessão de 25/09/2026. Mantida a revisão humana da carta. Esta revisão não atribui autoria ou aprovação nominal a uma pessoa não identificada na sessão e não altera a aprovação geral pendente do documento.
