@@ -1,8 +1,18 @@
 # Carta de Escopo — EMCIA
 
-| Código | HAB-01 | Versão | 0.1 |
+## Controle do modelo
+
+| Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Estado** | Template | **Fase** | Habilitação |
+| **Código** | HAB-01 | **Versão** | 0.2 |
+| **Data** | 2026-10 | **Estado** | Aprovado |
+| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale — 03/10/2026 |
+| **Fase** | Habilitação | **Tipo** | Modelo |
+
+## Identificação do caso
+
+| Metadado | Valor | Metadado | Valor |
+| :--- | :--- | :--- | :--- |
 | **Cliente** | {{organizacao}} | **Caso** | {{caso_id}} |
 | **Origem** | EMCIA-HAB-01 | **Responsável EMCIA** | {{responsavel_emcia}} |
 
@@ -86,3 +96,12 @@ A aplicação do EMCIA entrega diagnóstico e especificação. Salvo definição
 | Status | {{status_assinatura}} |
 | Versão assinada | {{versao_assinada}} |
 | Evidência | {{evidencia_assinatura}} |
+
+---
+
+## 10. Histórico de revisões do modelo
+
+| Versão | Data | Autor | Descrição da alteração | Aprovação |
+| :---: | :---: | :--- | :--- | :---: |
+| 0.1 | — | Celso do Vale | Edição anterior identificada como template, sem histórico de revisão próprio | — |
+| 0.2 | 2026-10 | Celso do Vale | Controle documental separado da identificação do caso; aprovação do modelo por Celso do Vale | Celso do Vale — 03/10/2026 |
