@@ -1,10 +1,10 @@
 # Glossário do método
 ## Vocabulário padronizado do percurso, índice de artefatos e índice de siglas
 
-| Código | EMCIA-GLO-01 | Versão | 0.5 |
+| Código | EMCIA-GLO-01 | Versão | 1.0 |
 | :--- | :--- | :--- | :--- |
-| **Data** | 2026-10 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale — 03/10/2026 |
+| **Data** | 03/10/2026 | **Estado** | Aprovado |
+| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
 | **Fase** | Todas | **Passo** | Todos |
 
 ---
@@ -169,6 +169,7 @@ EMCIA-MET-01, EMCIA-HAB-01, EMCIA-ROT-02, EMCIA-CAN-01, EMCIA-MAN-01, EMCIA-CAT-
 | 0.3 | 2026-10 | Celso do Vale | Nove termos operacionais, índices e remissão ao ROT-02, com distinção entre origem, integridade, autenticação e aceite; manutenção inserida no conteúdo e referências em seção própria | pendente |
 | 0.4 | 2026-10 | Celso do Vale | Definição de camada de encerramento e camada de preparação conforme CAT-01 v0.5, com limite por nível e preservação dos atos humanos; faixa de habilidades atualizada até HB-21 | pendente |
 | 0.5 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale; referências operacionais atualizadas para a decisão 043 e playbook 0.4.19 | Celso do Vale — 03/10/2026 |
+| 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.5 | Celso do Vale |
 
 ---
 

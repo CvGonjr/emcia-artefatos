@@ -3,9 +3,9 @@
 
 | Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Código** | EMCIA-CAN-01 | **Versão** | 0.2 |
-| **Data** | 2026-10 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale — 03/10/2026 |
+| **Código** | EMCIA-CAN-01 | **Versão** | 1.0 |
+| **Data** | 03/10/2026 | **Estado** | Aprovado |
+| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
 | **Fase** | Habilitação e F0–F4 | **Passo** | Todos |
 
 ---
@@ -98,3 +98,4 @@ Este protocolo está pronto quando cada operação distingue preparação, confi
 | :---: | :---: | :--- | :--- | :---: |
 | 0.1 | 2026-10 | Celso do Vale | Versão inicial conforme a operação entregue nas decisões 039–042: canais por id, propriedade, confirmações, atos humanos, integridade e limites MCP | pendente |
 | 0.2 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale; referências operacionais atualizadas para o playbook 0.4.19 | Celso do Vale — 03/10/2026 |
+| 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.2 | Celso do Vale |

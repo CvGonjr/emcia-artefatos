@@ -3,9 +3,9 @@
 
 | Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Código** | EMCIA-MAN-01 | **Versão** | 0.5 |
-| **Data** | 2026-10 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale — 03/10/2026 |
+| **Código** | EMCIA-MAN-01 | **Versão** | 1.0 |
+| **Data** | 03/10/2026 | **Estado** | Aprovado |
+| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
 | **Fase** | Todas | **Passo** | Todos |
 
 ---
@@ -73,7 +73,7 @@ Para cada etapa: o comando que o agente executa, os atos que só o engenheiro ex
 
 P3b não tem comando, por desenho: o levantamento é presencial e não delegável, e segue o EMCIA-ROT-01. Em P10, o monitoramento opera em EX2 e a decisão em EX4. Os entregáveis são materializados com `/eiac-campo:emitir`, depois que todas as etapas do seu portão estiverem encerradas.
 
-A camada da tabela é a camada de encerramento e decisão; as HBs conservam a camada de preparação do CAT-01 Anexo A, que não pode ser superior à camada da etapa no mesmo nível. A fonte da correspondência etapa → HBs → AG é o CAT-01 v0.6 Anexo C. O catálogo e o playbook 0.4.19 reproduzem essa correspondência conforme a decisão 043 do marketplace; o Anexo D do CAT-01 registra a implementação e a resolução da natureza de HB-16.
+A camada da tabela é a camada de encerramento e decisão; as HBs conservam a camada de preparação do CAT-01 Anexo A, que não pode ser superior à camada da etapa no mesmo nível. A fonte da correspondência etapa → HBs → AG é o CAT-01 v1.0 Anexo C. O catálogo e o playbook 0.4.19 reproduzem essa correspondência conforme a decisão 043 do marketplace; o Anexo D do CAT-01 registra a implementação e a resolução da natureza de HB-16.
 
 Antes de P3b, aplique um selo confirmado no Git após o último encerramento de P2; a tentativa de selo sem commit confirmado não basta. Em P2, vincular-restricao cobre o vínculo a fonte F curada e a dispensa motivada por restricoes.py, no terminal humano, em todos os níveis. Sem RH importado, a cobertura é vazia. Revisão exige decisão que cite RH e versão anterior, com pessoa, motivo e data; após P2, somente revisão de registro existente. A marca acompanha cada asserção que cita fonte restrita, conforme HAB-01 §3.4 e CTX-01 §3.7.
 
@@ -126,9 +126,9 @@ Versões documentais aprovadas por Celso do Vale em 03/10/2026 e referenciadas p
 
 | Grupo | Documentos e versões |
 | :--- | :--- |
-| Base do método | MET-01 0.3; GLO-01 0.5; TRI-01 0.3; CAT-01 0.6; TRA-01 0.5; CTX-01 0.6 |
-| Campo | CAM-01 0.5; ROT-01 0.2; FER-01 0.3 |
-| Habilitação e canais | EMCIA-HAB-01 0.4; ROT-02 0.3; CAN-01 0.2 |
+| Base do método | MET-01 1.0; GLO-01 1.0; TRI-01 1.0; CAT-01 1.0; TRA-01 1.0; CTX-01 1.0 |
+| Campo | CAM-01 1.0; ROT-01 1.0; FER-01 1.0 |
+| Habilitação e canais | EMCIA-HAB-01 1.0; ROT-02 1.0; CAN-01 1.0 |
 | Modelos de entregáveis | EMCIA-E1-01 a EMCIA-E5-01, versão 0.1 do modelo |
 | Modelos de habilitação | HAB-01, HAB-02 e HAB-03, versão 0.2 |
 
@@ -143,3 +143,4 @@ A aprovação dos modelos HAB-02 e HAB-03 é documental; a revisão jurídica in
 | 0.3 | 2026-10 | Celso do Vale | Ato humano decidir-prosseguimento em F0 nas seções 3.3 e 3.4, como condição de encerramento baseada na ficha E1; retirada desse item dos limites de 3.6; correspondência canônica de HBs no CAT-01 v0.5, sem manter lacunas da decisão 020 como indefinição de método. Validação sem alterar código: conferir() do A25 contra o playbook 0.4.18 retornou somente “F0: ato decidir-prosseguimento não declarado”; os quatro testes negativos passaram. Divergência dependente da implementação no marketplace; lista vazia exigida após essa implementação | pendente |
 | 0.4 | 2026-10 | Celso do Vale | produto de F0 alinhado ao contrato de decidir-prosseguimento | pendente |
 | 0.5 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale após os demais documentos e modelos; referência ao núcleo 0.2.45, campo 0.8.23 e playbook 0.4.19, decisão 043; ambos os desfechos encerram F0 e não prosseguir bloqueia etapas seguintes até nova decisão; conferir() do A25 devolveu lista vazia contra o rascunho canônico e os quatro testes negativos passaram, sem alterar código ou playbook | Celso do Vale — 03/10/2026 |
+| 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.5 | Celso do Vale |

@@ -1,10 +1,10 @@
 # Fronteira de delegação
 ## Camadas de execução e catálogo de agentes e habilidades
 
-| Código | EMCIA-CAT-01 | Versão | 0.6 |
+| Código | EMCIA-CAT-01 | Versão | 1.0 |
 | :--- | :--- | :--- | :--- |
-| **Data** | 2026-10 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale — 03/10/2026 |
+| **Data** | 03/10/2026 | **Estado** | Aprovado |
+| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
 | **Fase** | F0 a F4 — todas | **Passo** | 1 a 10 — todos |
 
 ---
@@ -202,6 +202,7 @@ Este artefato está pronto quando toda atividade dos dez passos tem natureza atr
 | 0.4 | 2026-10 | Celso do Vale | Fronteira de ações externas, confirmação por efeito e compartilhamento; atos humanos de canais, importação, recebimento, listagem, entrega e vínculo de restrição | pendente |
 | 0.5 | 2026-10 | Celso do Vale | Aplicação das decisões humanas D2–D8: HB-04/05 em F0, HB-06 em P2 e HB-13 em P7/AG-03; D5 resolvida com instrumentos distintos, HB-09 mantida no passo 3/P3d, estado declarado selado em P2 como entrada e candidatos para P4 como saída, sem alterar MET-01; varredura e desenho discriminados, preservando natureza automatizada e registrando desenho sem execução comprovada; HB-19 a HB-21 criadas somente com evidência textual dos SKILL.md; Anexo B restrito à execução não comprovada; correspondência canônica no Anexo C; camadas de encerramento e preparação; ato humano decidir-prosseguimento em F0. Evidências e dependências operacionais no Anexo D | pendente |
 | 0.6 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale; implementação da correspondência registrada na decisão 043; dois desfechos de F0 alinhados ao contrato; HB-16 mantida automatizada por decisão humana, com correção correspondente no CAM-01 | Celso do Vale — 03/10/2026 |
+| 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.6 | Celso do Vale |
 
 ---
 

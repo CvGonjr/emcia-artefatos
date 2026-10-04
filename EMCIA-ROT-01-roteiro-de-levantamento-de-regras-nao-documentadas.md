@@ -4,9 +4,9 @@
 
 | | | | |
 |---|---|---|---|
-| **Código** | EMCIA-ROT-01 | **Versão** | 0.2 |
-| **Data** | 2026-10 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale — 03/10/2026 |
+| **Código** | EMCIA-ROT-01 | **Versão** | 1.0 |
+| **Data** | 03/10/2026 | **Estado** | Aprovado |
+| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
 | **Fase** | F1 — Diagnóstico | **Passo** | 3 — P3b |
 
 ## 1. Objetivo
@@ -164,6 +164,7 @@ O roteiro está pronto quando um engenheiro que não participou de sua construç
 |---|---|---|---|---|
 | 0.1 | 17/09/2026 | Celso do Vale | Versão inicial: princípios, estrutura da sessão em seis momentos, calibragem por nível, critério de encerramento e fronteira de delegação. | — |
 | 0.2 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale; metadados da aplicação em F1/P3b; camadas de P3a por nível conforme CAT-01; origens dos insumos de P3b alinhadas às fontes de P2; retirada de HB-09 da preparação de P3b, pois pertence a P3d | Celso do Vale — 03/10/2026 |
+| 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.2 | Celso do Vale |
 
 ---
 
