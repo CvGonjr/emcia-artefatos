@@ -1,10 +1,10 @@
 # Glossário do método
 ## Vocabulário padronizado do percurso, índice de artefatos e índice de siglas
 
-| Código | EMCIA-GLO-01 | Versão | 1.0 |
+| Código | EMCIA-GLO-01 | Versão | 1.1 |
 | :--- | :--- | :--- | :--- |
-| **Data** | 03/10/2026 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
+| **Data** | 05/10/2026 | **Estado** | Em revisão |
+| **Responsável** | Celso do Vale | **Aprovação** | pendente |
 | **Fase** | Todas | **Passo** | Todos |
 
 ---
@@ -148,6 +148,12 @@ Cada entrada tem quatro campos, e o terceiro é o que faz o trabalho. A maior pa
 | **Campo oculto** | Campo caso que acompanha o link e a submissão para selecionar material do caso correto | Autenticação do respondente | CAN-01 · FER-01 |
 | **Evento selado** | Evento incluído no prefixo da trilha preservado por selo posterior confirmado no histórico Git | Evento SeloAplicado isolado ou commit comum após tentativa recusada | HAB-01 §3.3.4 · MAN-01 |
 | **Restrição vinculada** | RH importado associado por decisão humana a fonte F curada, em registro versionado; sua marca acompanha cada asserção que cita essa fonte | Ressalva genérica, concessão do acesso negado ou elevação automática para V | HAB-01 §3.4 · CTX-01 §3.7 · TRA-01 |
+| **Controlador** | Pessoa natural ou jurídica que decide as finalidades e os elementos essenciais do tratamento de dados pessoais; no HAB-03, o cliente, responsável pelas bases legais, LIA e RIPD quando cabíveis | Operadora que executa instruções em seu nome | HAB-03 §2 · Anexo I |
+| **Operadora** | Pessoa natural ou jurídica que trata dados pessoais em nome do Controlador, conforme instruções documentadas; no HAB-03, a EMCIA | Titular dos dados ou delegação irrestrita das decisões do Controlador | HAB-03 §2 · Anexo I |
+| **Subprocessador** | Terceiro autorizado a tratar dados pessoais no âmbito das atividades da Operadora, para finalidade delimitada; Tally, Google e Anthropic nos serviços declarados no HAB-03 | Autorização genérica a qualquer provedor ou para qualquer uso dos dados | HAB-03 §5.1 · Anexo I, I.4 · CAN-01 |
+| **DPA** | Acordo de Tratamento de Dados que define instruções, confidencialidade, segurança, subprocessamento, transferência, incidentes, titulares, término, auditoria e responsabilidade; Anexo I vinculante do HAB-03, incluído na mesma assinatura | Quarto documento de 0b ou substituto das cláusulas-padrão da ANPD para transferência internacional | HAB-03 Anexo I · HAB-01 · ROT-02 |
+| **Autorização operacional** | Permissão contratual do cliente para operações delimitadas de acesso, gravação e processamento, sob base legal adequada e instruções de governança | Consentimento de todos os titulares ou base legal autônoma de tratamento | HAB-03 · HAB-01 |
+| **Consentimento** | Manifestação livre, informada e inequívoca do titular para finalidade determinada, quando essa base legal for aplicável | Nome ou alicerce do HAB-03; tampouco autorização do cliente em nome de todos os titulares | LGPD · HAB-03 §2.1 |
 
 ### 3.10 Regra de manutenção
 Termo entra quando uma divergência de leitura aparece, e não por antecipação. Glossário redigido preventivamente registra os termos que o autor imaginou ambíguos, e não os que de fato o são.
@@ -170,6 +176,7 @@ EMCIA-MET-01, EMCIA-HAB-01, EMCIA-ROT-02, EMCIA-CAN-01, EMCIA-MAN-01, EMCIA-CAT-
 | 0.4 | 2026-10 | Celso do Vale | Definição de camada de encerramento e camada de preparação conforme CAT-01 v0.5, com limite por nível e preservação dos atos humanos; faixa de habilidades atualizada até HB-21 | pendente |
 | 0.5 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale; referências operacionais atualizadas para a decisão 043 e playbook 0.4.19 | Celso do Vale — 03/10/2026 |
 | 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.5 | Celso do Vale |
+| 1.1 | 05/10/2026 | Celso do Vale | Definições de Controlador, Operadora, subprocessador, DPA, autorização operacional e consentimento; consentimento deixa de designar o HAB-03; parecer jurídico do ciclo 1 em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf; nova aprovação pendente | pendente |
 
 ---
 
