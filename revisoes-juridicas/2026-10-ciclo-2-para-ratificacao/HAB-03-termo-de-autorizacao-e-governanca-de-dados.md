@@ -1,13 +1,6 @@
 # Termo de Autorização Operacional e Governança de Dados — EMCIA
 
-## Controle do modelo
-
-| Metadado | Valor | Metadado | Valor |
-| :--- | :--- | :--- | :--- |
-| **Código** | HAB-03 | **Versão** | 0.3 |
-| **Data** | 05/10/2026 | **Estado** | Em revisão |
-| **Responsável** | Celso do Vale | **Aprovação** | pendente |
-| **Fase** | Habilitação | **Tipo** | Modelo |
+Minuta para ratificação jurídica · HAB-03 v0.3 · 05/10/2026. Sem aprovação ou autorização de uso com cliente.
 
 ## Identificação do caso
 
@@ -22,8 +15,6 @@
 
 Estabelecer as autorizações operacionais, os papéis e as instruções de governança para o acesso a documentos e dados, a gravação de sessões e o processamento por IA no caso EMCIA. O Anexo I — Acordo de Tratamento de Dados (DPA) integra este termo e vincula as partes com a mesma assinatura, sem constituir um quarto documento de 0b.
 
-> **Revisão jurídica:** minuta pendente de ratificação jurídica. Fonte: parecer de 05/10/2026, ciclo 1, em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf. O parecer condicionado das versões 0.2 não libera geração. A ratificação deve examinar os hashes exatos desta versão e a pendência sobre treinamento pelos provedores.
-> Pendências de verificação pelo engenheiro, por provedor, antes de ratificação e uso: Tally — plano contratado, termos e DPA, uso de respostas para treinamento ou melhoria de modelos, retenção, exclusão, subprocessadores, localização e mecanismo de transferência, acesso e segurança; Google — edição e serviços contratados de Drive e Calendar, termos e DPA, usos de conteúdo e metadados para treinamento ou melhoria de modelos, controles do administrador, retenção, exclusão, subprocessadores, localização e mecanismo de transferência, acesso e segurança; Anthropic — modalidade comercial de Claude efetivamente usada, termos e DPA, treinamento e opções de adesão ou exclusão, exceções e retenção para segurança, exclusão, subprocessadores, localização e mecanismo de transferência, acesso e segurança. Preservar versões dos termos e evidências das configurações. Não há compromisso de não uso para treinamento nesta minuta; o resultado dessas verificações será submetido ao ciclo 2, conforme a decisão do engenheiro.
 
 ## 2. Identificação
 
@@ -204,11 +195,3 @@ Aplicam-se a reparação integral dos danos comprovados, sem multa prefixada, e 
 | Evidência | {{evidencia_assinatura}} |
 
 ---
-
-## 11. Histórico de revisões do modelo
-
-| Versão | Data | Autor | Descrição da alteração | Aprovação |
-| :---: | :---: | :--- | :--- | :---: |
-| 0.1 | — | Celso do Vale | Edição anterior identificada como template, sem histórico de revisão próprio | — |
-| 0.2 | 2026-10 | Celso do Vale | Controle documental separado da identificação do caso; aprovação do modelo por Celso do Vale; revisão jurídica antes do uso com cliente real registrada, inclusive quanto ao tratamento de dados pessoais | Celso do Vale — 03/10/2026 |
-| 0.3 | 05/10/2026 | Celso do Vale | Renomeação e minuta de autorização operacional e governança de dados com DPA vinculante no Anexo I; bases legais, papéis, subprocessadores, transferência, gravações até o encerramento, incidentes em 48 horas úteis, titulares e apoio a LIA/RIPD; treinamento pelos provedores pendente de verificação interna; parecer do ciclo 1 em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf; pendente de ratificação e de nova aprovação documental | pendente |
