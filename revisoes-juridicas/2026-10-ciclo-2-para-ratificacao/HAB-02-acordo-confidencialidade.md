@@ -1,13 +1,6 @@
 # Acordo de Confidencialidade — EMCIA
 
-## Controle do modelo
-
-| Metadado | Valor | Metadado | Valor |
-| :--- | :--- | :--- | :--- |
-| **Código** | HAB-02 | **Versão** | 0.3 |
-| **Data** | 05/10/2026 | **Estado** | Em revisão |
-| **Responsável** | Celso do Vale | **Aprovação** | pendente |
-| **Fase** | Habilitação | **Tipo** | Modelo |
+Minuta para ratificação jurídica · HAB-02 v0.3 · 05/10/2026. Sem aprovação ou autorização de uso com cliente.
 
 ## Identificação do caso
 
@@ -22,7 +15,6 @@
 
 Estabelecer deveres recíprocos de confidencialidade para as informações reveladas pela organização cliente e pela EMCIA durante o caso, inclusive os ativos intelectuais da EMCIA.
 
-> **Revisão jurídica:** minuta pendente de ratificação jurídica. Redigida a partir do parecer de 05/10/2026, ciclo 1, preservado em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf. A aprovação condicionada das versões 0.2 não libera a geração desta versão; a ratificação deve identificar seus hashes exatos, sem condições pendentes.
 
 ## 2. Partes
 
@@ -121,11 +113,3 @@ Para as controvérsias decorrentes deste acordo, as partes elegem o foro da coma
 | Evidência | {{evidencia_assinatura}} |
 
 ---
-
-## 11. Histórico de revisões do modelo
-
-| Versão | Data | Autor | Descrição da alteração | Aprovação |
-| :---: | :---: | :--- | :--- | :---: |
-| 0.1 | — | Celso do Vale | Edição anterior identificada como template, sem histórico de revisão próprio | — |
-| 0.2 | 2026-10 | Celso do Vale | Controle documental separado da identificação do caso; aprovação do modelo por Celso do Vale; revisão jurídica antes do uso com cliente real registrada, inclusive quanto ao tratamento de dados pessoais | Celso do Vale — 03/10/2026 |
-| 0.3 | 05/10/2026 | Celso do Vale | Minuta de deveres mútuos, exceções taxativas, sigilo residual de 5 anos, devolução e descarte com guarda probatória, reparação integral e tutela de urgência, assinatura eletrônica e foro de Barra Mansa/RJ; parecer jurídico do ciclo 1 em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf; pendente de ratificação e de nova aprovação documental | pendente |
