@@ -3,9 +3,9 @@
 
 | Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Código** | EMCIA-CAN-01 | **Versão** | 1.0 |
-| **Data** | 03/10/2026 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
+| **Código** | EMCIA-CAN-01 | **Versão** | 1.1 |
+| **Data** | 05/10/2026 | **Estado** | Em revisão |
+| **Responsável** | Celso do Vale | **Aprovação** | pendente |
 | **Fase** | Habilitação e F0–F4 | **Passo** | Todos |
 
 ---
@@ -17,6 +17,8 @@ Definir como o serviço recebe declarações e material, organiza sessões e pub
 Aplica-se aos formulários, ao drive compartilhado e ao calendário usados pelo engenheiro de campo. A preparação pode ser delegada, mas os atos que constituem evidência no caso são humanos. O cliente interage com pessoas e canais; o agente trabalha para o engenheiro.
 
 Assinatura eletrônica, aceite do cliente, gravação e transcrição estão fora deste protocolo. A formalização por painel segue o EMCIA-HAB-01 e o EMCIA-ROT-02. A publicação de um entregável e o registro de sua entrega não constituem aceite.
+
+As ferramentas usadas nos canais são subprocessadores declarados no HAB-03 — Termo de Autorização Operacional e Governança de Dados e em seu Anexo I (DPA): Tally para formulários e Google para armazenamento em Drive e agenda em Calendar. Anthropic, por Claude, processa por IA somente o conteúdo autorizado. O cliente é Controlador e a EMCIA é Operadora; o endereço por id e a confirmação no chat não substituem as instruções de tratamento, a autorização de subprocessamento nem o mecanismo legal de transferência internacional. Mudança de provedor ou finalidade exige aviso prévio e autorização escrita do Controlador, conforme o HAB-03. Não se presume condição comercial sobre treinamento de modelos a partir do nome da ferramenta.
 
 ## 3. Conteúdo
 
@@ -99,3 +101,4 @@ Este protocolo está pronto quando cada operação distingue preparação, confi
 | 0.1 | 2026-10 | Celso do Vale | Versão inicial conforme a operação entregue nas decisões 039–042: canais por id, propriedade, confirmações, atos humanos, integridade e limites MCP | pendente |
 | 0.2 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale; referências operacionais atualizadas para o playbook 0.4.19 | Celso do Vale — 03/10/2026 |
 | 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.2 | Celso do Vale |
+| 1.1 | 05/10/2026 | Celso do Vale | Ferramentas dos canais como subprocessadores declarados no HAB-03, finalidades delimitadas e remissão às regras de autorização e transferência; parecer jurídico do ciclo 1 em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf; nova aprovação pendente | pendente |
