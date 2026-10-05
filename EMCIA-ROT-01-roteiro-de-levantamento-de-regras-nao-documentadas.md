@@ -4,9 +4,9 @@
 
 | | | | |
 |---|---|---|---|
-| **Código** | EMCIA-ROT-01 | **Versão** | 1.0 |
-| **Data** | 03/10/2026 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
+| **Código** | EMCIA-ROT-01 | **Versão** | 1.1 |
+| **Data** | 05/10/2026 | **Estado** | Em revisão |
+| **Responsável** | Celso do Vale | **Aprovação** | pendente |
 | **Fase** | F1 — Diagnóstico | **Passo** | 3 — P3b |
 
 ## 1. Objetivo
@@ -49,7 +49,7 @@ A sessão não começa sem quatro itens prontos. Entrar em campo sem eles transf
 | Lista de verificação de campo | Cada afirmação declarada na Fase 0 convertida em item a confirmar, com prioridade e método de verificação | E1 |
 | Recorte de casos concretos | De cinco a oito casos reais já resolvidos, cobrindo o comum e o atípico, extraídos do histórico com apoio do executor | Fontes de P2 e estado declarado selado após P2 |
 | Leitura das fontes escritas | Procedimentos, normas e telas de sistema que descrevem o processo-alvo | Inventário de fontes de P2 (HB-06) |
-| Termo de consentimento | Autorização escrita para observação, gravação e registro de autoria | HAB-01 |
+| Termo de Autorização Operacional e Governança de Dados | HAB-03 com Anexo I (DPA), autorização escrita para observação, gravação e registro de autoria, comunicação prévia aos participantes e canal interno de oposição | EMCIA-HAB-01 · HAB-03 |
 
 A preparação é delegável. A sessão não é. A correspondência etapa → HBs → AG e as camadas por nível seguem o CAT-01 Anexo C. HB-09 pertence a P3d, com candidatos para P4 como saída; não é pré-requisito de P3b.
 
@@ -165,6 +165,7 @@ O roteiro está pronto quando um engenheiro que não participou de sua construç
 | 0.1 | 17/09/2026 | Celso do Vale | Versão inicial: princípios, estrutura da sessão em seis momentos, calibragem por nível, critério de encerramento e fronteira de delegação. | — |
 | 0.2 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale; metadados da aplicação em F1/P3b; camadas de P3a por nível conforme CAT-01; origens dos insumos de P3b alinhadas às fontes de P2; retirada de HB-09 da preparação de P3b, pois pertence a P3d | Celso do Vale — 03/10/2026 |
 | 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.2 | Celso do Vale |
+| 1.1 | 05/10/2026 | Celso do Vale | Preparação da sessão remete ao HAB-03 de autorização operacional e governança de dados, com DPA, comunicação prévia e canal de oposição; parecer jurídico do ciclo 1 em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf; nova aprovação pendente | pendente |
 
 ---
 
