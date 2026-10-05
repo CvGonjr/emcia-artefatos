@@ -3,9 +3,9 @@
 
 | Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Código** | EMCIA-MAN-01 | **Versão** | 1.0 |
-| **Data** | 03/10/2026 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
+| **Código** | EMCIA-MAN-01 | **Versão** | 1.1 |
+| **Data** | 05/10/2026 | **Estado** | Em revisão |
+| **Responsável** | Celso do Vale | **Aprovação** | pendente |
 | **Fase** | Todas | **Passo** | Todos |
 
 ---
@@ -39,6 +39,10 @@ Esta revisão toma como referência o playbook operacional **0.4.19**, campo **0
 
 ### 3.2 Antes do caso
 Conclua 0a–0c pelo EMCIA-HAB-01 e pelo EMCIA-ROT-02, em expediente administrativo separado: revisão humana, formalização vigente, assinaturas conferidas e acesso efetivo. Informações administrativas anteriores ao caso seguem o HAB-01 §3.7. Instale o Estúdio e rode os testes negativos conforme o INSTALACAO.md do marketplace antes de abrir caso real.
+
+Em 0b, o HAB-03 é o Termo de Autorização Operacional e Governança de Dados, com Anexo I vinculante (DPA), em auxiliares/HAB-03-termo-de-autorizacao-e-governanca-de-dados.md. Permanecem três documentos: HAB-01, HAB-02 e HAB-03. O cliente é Controlador e a EMCIA é Operadora; autorização operacional não substitui a base legal dos titulares. Conferir subprocessadores, transferência internacional, comunicação prévia e canal de oposição à gravação, cuja retenção termina no encerramento do caso.
+
+O parecer de 05/10/2026, ciclo 1, condicionado a ajustes, não libera geração para cliente. HAB-02 e HAB-03 v0.3 dependem de ratificação jurídica sem condição sobre seus hashes exatos, aprovação documental e nova linha de base aprovada. Só a ratificação sem condição é registrada pela operação humana revisao-juridica, com evidência importada. A aprovação anterior no APR-01 da tag metodo-v1.0 não se estende às minutas alteradas. O gerador do campo 0.8.24 ainda declara o nome antigo de HAB-03 e os hashes da linha de base 1.0; sua atualização pertence à implantação futura da nova linha de base, sem alteração de código nesta revisão documental.
 
 Em 0d, execute a sequência abaixo:
 
@@ -117,22 +121,22 @@ As conferências operacionais incluem manifesto na abertura, importação e selo
 O marketplace mantém em `decisoes/` o registro de cada decisão de construção, com contexto, decisão e consequência. Antes de propor mudança no que parecer burocracia, leia a decisão correspondente.
 
 ## 4. Condição de aceite
-O manual corresponde integralmente à versão operacional quando a tabela da seção 3.3 coincide com o playbook declarado: mesmas etapas, mesmas camadas, comandos existentes, atos declarados, produtos e portões. Esta revisão foi conferida diretamente pela função conferir() de testes/manual_a25.py contra o rascunho canônico e o playbook 0.4.19 no commit d9551a90b5ee3cec5006bbbfcbdebca4cbfe0f35 do marketplace master, sem alterar código ou playbook. O resultado exigido e obtido é lista vazia. Os quatro testes negativos de etapa, camada, ato e comando passaram contra o mesmo rascunho. Qualquer divergência interrompe a revisão. A conformidade operacional e a aprovação documental são registros distintos: Celso do Vale aprovou esta revisão em 03/10/2026, após a aprovação dos documentos e modelos relacionados.
+O manual corresponde integralmente à versão operacional quando a tabela da seção 3.3 coincide com o playbook declarado: mesmas etapas, mesmas camadas, comandos existentes, atos declarados, produtos e portões. Na revisão aprovada em 03/10/2026, a função conferir() de testes/manual_a25.py foi aplicada contra o rascunho canônico e o playbook 0.4.19 no commit d9551a90b5ee3cec5006bbbfcbdebca4cbfe0f35 do marketplace master, sem alterar código ou playbook. O resultado exigido e obtido foi lista vazia. Os quatro testes negativos de etapa, camada, ato e comando passaram contra o mesmo rascunho. Qualquer divergência interrompe a revisão. A conformidade operacional e a aprovação documental são registros distintos: Celso do Vale aprovou a versão anterior em 03/10/2026, após a aprovação dos documentos e modelos relacionados; a versão 1.1 permanece em revisão, com aprovação pendente.
 
 ## 5. Referências
 EMCIA-MET-01, EMCIA-CAT-01, EMCIA-TRI-01, EMCIA-CAM-01, EMCIA-TRA-01, EMCIA-ROT-01, EMCIA-ROT-02, EMCIA-CTX-01, EMCIA-HAB-01, EMCIA-CAN-01, EMCIA-GLO-01 e EMCIA-E1 a EMCIA-E5. EMCIA-ESP-01, EMCIA-ARQ-01 e EMCIA-IMP-01 permanecem referências da PoC e da construção. Referência operacional: emcia-marketplace, decisões 039–043, playbook 0.4.19, núcleo 0.2.45, campo 0.8.23 e evidências habilitacao-0d, canais-externos, parte-a-operacional e correspondencia-cat01.
 
-Versões documentais aprovadas por Celso do Vale em 03/10/2026 e referenciadas por esta revisão:
+Versões documentais referenciadas por esta minuta. O APR-01 mantém o registro histórico da linha de base aprovada em 03/10/2026; versões alteradas abaixo estão em revisão e não compõem nova linha de base aprovada:
 
 | Grupo | Documentos e versões |
 | :--- | :--- |
-| Base do método | MET-01 1.0; GLO-01 1.0; TRI-01 1.0; CAT-01 1.0; TRA-01 1.0; CTX-01 1.0 |
-| Campo | CAM-01 1.0; ROT-01 1.0; FER-01 1.0 |
-| Habilitação e canais | EMCIA-HAB-01 1.0; ROT-02 1.0; CAN-01 1.0 |
+| Base do método | MET-01 1.1 e GLO-01 1.1, em revisão; TRI-01 1.0; CAT-01 1.0; TRA-01 1.0; CTX-01 1.0 |
+| Campo | CAM-01 1.0; ROT-01 1.1, em revisão; FER-01 1.0 |
+| Habilitação e canais | EMCIA-HAB-01 1.1; ROT-02 1.1; CAN-01 1.1, em revisão |
 | Modelos de entregáveis | EMCIA-E1-01 a EMCIA-E5-01, versão 0.1 do modelo |
-| Modelos de habilitação | HAB-01, HAB-02 e HAB-03, versão 0.2 |
+| Modelos de habilitação | HAB-01 0.2, preservado; HAB-02 e HAB-03 0.3, em revisão, pendentes de ratificação jurídica |
 
-A aprovação dos modelos HAB-02 e HAB-03 é documental; a revisão jurídica indicada nos modelos precede seu uso com cliente real.
+A aprovação documental dos modelos HAB-02 e HAB-03 v0.2 não autoriza o uso das novas minutas v0.3. O parecer do ciclo 1, preservado em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf, condiciona sua liberação aos ajustes; ver revisoes-juridicas/pendencias-ciclo-2.md e o pacote para ratificação. Não registrar o parecer condicionado como liberação nos expedientes.
 
 ## 6. Histórico de revisões
 
@@ -144,3 +148,4 @@ A aprovação dos modelos HAB-02 e HAB-03 é documental; a revisão jurídica in
 | 0.4 | 2026-10 | Celso do Vale | produto de F0 alinhado ao contrato de decidir-prosseguimento | pendente |
 | 0.5 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale após os demais documentos e modelos; referência ao núcleo 0.2.45, campo 0.8.23 e playbook 0.4.19, decisão 043; ambos os desfechos encerram F0 e não prosseguir bloqueia etapas seguintes até nova decisão; conferir() do A25 devolveu lista vazia contra o rascunho canônico e os quatro testes negativos passaram, sem alterar código ou playbook | Celso do Vale — 03/10/2026 |
 | 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.5 | Celso do Vale |
+| 1.1 | 05/10/2026 | Celso do Vale | Remissões às minutas 0.3 e aos documentos 1.1 em revisão; ratificação sem condição, DPA em três documentos e implantação futura do novo nome no gerador; tabela operacional preservada; conferir() do A25 retornou lista vazia e os quatro negativos passaram contra a minuta 1.1 e o playbook 0.4.19, em Python 3.12.12, sem alteração de código; parecer jurídico do ciclo 1 em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf; nova aprovação pendente | pendente |
