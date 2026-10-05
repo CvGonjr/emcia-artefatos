@@ -3,9 +3,9 @@
 
 | Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Código** | EMCIA-HAB-01 | **Versão** | 1.0 |
-| **Data** | 03/10/2026 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
+| **Código** | EMCIA-HAB-01 | **Versão** | 1.1 |
+| **Data** | 05/10/2026 | **Estado** | Em revisão |
+| **Responsável** | Celso do Vale | **Aprovação** | pendente |
 | **Fase** | Anterior a F0 | **Passo** | Não se aplica |
 
 ---
@@ -57,13 +57,17 @@ As etapas são sequenciais e a ordem tem razão de ser: qualificar antes de form
 
 #### 3.3.2 Etapa 0b — Formalização do escopo
 * **Objetivo:** Registrar por escrito o que o engajamento cobre, o que não cobre e sob que condições a informação circula.
-* **Atividades:** Emitir a carta de escopo com o processo-alvo, as fases previstas e os cinco entregáveis; firmar o acordo de confidencialidade; obter o consentimento para registro de sessões e uso de dado; declarar por escrito o limite do serviço.
+* **Atividades:** Emitir a carta de escopo com o processo-alvo, as fases previstas e os cinco entregáveis; firmar o acordo mútuo de confidencialidade HAB-02; obter o Termo de Autorização Operacional e Governança de Dados HAB-03, incluindo seu Anexo I vinculante (DPA), para registro de sessões e tratamento autorizado; declarar por escrito o limite do serviço.
 * **Natureza:** Humana. Gera compromisso assinado, e compromisso não é delegável.
-* **Artefato:** Carta de escopo assinada, acordo de confidencialidade e termo de consentimento.
+* **Artefato:** Carta de escopo HAB-01 assinada, acordo de confidencialidade HAB-02 e Termo de Autorização Operacional e Governança de Dados HAB-03, com seu Anexo I na mesma assinatura. Permanecem três documentos em 0b.
 * **Passagem:** Os três documentos estão assinados por quem tem competência para assiná-los.
 * **Recusa:** A organização exige que o serviço inclua construção ou implantação; ou recusa o registro das sessões de levantamento.
 
 > *Nota:* A recusa do registro das sessões é impeditiva, não negociável: sem registro não há como demonstrar autoria da regra levantada, e o dossiê perde a procedência que o distingue de autodeclaração.
+
+O cliente atua como Controlador; a EMCIA, como Operadora. A autorização operacional não equivale a consentimento dos titulares nem substitui a base legal aplicável. O cliente documenta as bases de execução de contrato ou legítimo interesse quando cabíveis, as avaliações de legítimo interesse e de impacto (LIA/RIPD) sob sua responsabilidade, a comunicação prévia aos participantes e o canal interno de oposição; a EMCIA presta apoio e informações. A gravação tem finalidade restrita ao caso e retenção até seu encerramento. Subprocessadores, transferência internacional e comunicação recíproca de incidentes em até 48 horas úteis seguem o HAB-03 e seu Anexo I.
+
+Antes de gerar HAB-02 e HAB-03 para cliente, conferir os hashes aprovados no APR-01 e registrar no expediente a ratificação jurídica sem condição, com os hashes exatos dos templates e a evidência importada. O parecer do ciclo 1, de 05/10/2026, é condicionado e não libera geração. As minutas 0.3 exigem ratificação, aprovação documental e nova linha de base antes do uso real; o APR-01 da tag metodo-v1.0 permanece como registro da aprovação anterior.
 
 #### 3.3.3 Etapa 0c — Concessão de acesso
 * **Objetivo:** Converter a autorização escrita em acesso efetivo a pessoas, dado, sistema e documento.
@@ -147,5 +151,6 @@ Este artefato está pronto quando:
 | 0.3 | 2026-10 | Celso do Vale | 0d com abertura conferida, canais antes ou junto da importação, gravação validada e selo confirmado no Git; vínculo RH → F e dispensa humana em P2, com marca localizada; remissão ao ROT-02 | pendente |
 | 0.4 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale; referência operacional atualizada para o playbook 0.4.19; aprovação atual nominal sem alterar o registro histórico da revisão 0.2 | Celso do Vale — 03/10/2026 |
 | 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.4 | Celso do Vale |
+| 1.1 | 05/10/2026 | Celso do Vale | Formalização em três documentos com HAB-03 de autorização operacional e governança de dados, DPA vinculante e ratificação jurídica sem condição antes de geração; parecer jurídico do ciclo 1 em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf; nova aprovação pendente | pendente |
 
 **Registro da revisão 0.2:** escopo administrativo anterior a 0d, reserva de identificador e assinatura por painel aprovados pelo usuário na sessão de 25/09/2026. Mantida a revisão humana da carta. Esta revisão não atribui autoria ou aprovação nominal a uma pessoa não identificada na sessão e não altera a aprovação geral pendente do documento.
