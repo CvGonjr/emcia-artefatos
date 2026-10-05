@@ -2,8 +2,8 @@
 
 | Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Código** | EMCIA-HAB-fluxo-operacional-proposta | **Versão** | 0.2 |
-| **Data** | 2026-10 | **Estado** | Em revisão |
+| **Código** | EMCIA-HAB-fluxo-operacional-proposta | **Versão** | 0.3 |
+| **Data** | 05/10/2026 | **Estado** | Em revisão |
 | **Responsável** | Celso do Vale | **Aprovação** | pendente |
 | **Fase** | Anterior a F0 | **Passo** | 0a–0d |
 
@@ -58,11 +58,11 @@ Após qualificação em 0a e resolução das pendências que afetam a formaliza�
 |---|---|
 | HAB-01 — Carta de escopo | Organização, processo e limites, participantes, escopo, entregáveis e restrições |
 | HAB-02 — Confidencialidade | Partes, finalidade, informações abrangidas e condições de tratamento |
-| HAB-03 — Consentimento | Autorizações de gravação, fontes, processamento por IA, ambientes permitidos e restrições |
+| HAB-03 — Termo de Autorização Operacional e Governança de Dados | Autorizações de gravação, fontes, processamento por IA, ambientes permitidos e restrições; Anexo I vinculante (DPA), na mesma assinatura |
 
 Separar dados declarados pelo cliente, decisões registradas pelo engenheiro e cláusulas do template. Todo campo preenchido deve ter origem recuperável. Campos desconhecidos impedem finalizar a minuta quando necessários ao compromisso; não usar “não se aplica” por suposição.
 
-Conferir signatários por documento: a pessoa que responde, o patrocinador e a pessoa competente para assinar podem ser diferentes. Os templates atuais também preveem assinatura da parte EMCIA. Conferir a revisão jurídica já exigida pelo HAB-02 antes do uso contratual.
+Conferir signatários por documento: a pessoa que responde, o patrocinador e a pessoa competente para assinar podem ser diferentes. Os templates atuais também preveem assinatura da parte EMCIA. A autorização operacional no HAB-03 não é consentimento dos titulares e mantém o fluxo em três documentos. Antes de gerar HAB-02 e HAB-03 para cliente, conferir hashes aprovados no APR-01 e ratificação jurídica sem condição sobre esses hashes. O parecer condicionado do ciclo 1, de 05/10/2026, não libera geração; as minutas 0.3 exigem ratificação e nova linha de base aprovada.
 
 ### 3.4 Assinatura como etapa própria de 0b
 
@@ -154,3 +154,4 @@ EMCIA-HAB-01, EMCIA-ROT-02, EMCIA-CAN-01, EMCIA-MAN-01, EMCIA-CTX-01 e EMCIA-TRA
 | Versão | Data | Autor | Descrição da alteração | Aprovação |
 | :---: | :---: | :--- | :--- | :---: |
 | 0.2 | 2026-10 | Celso do Vale | Revisão da edição anterior de 25/09/2026 sem versão explícita; remissão ao ROT-02 e sequência de 0d; implementação e evidência entregues pelas decisões 039–042, com limites e pendências editoriais preservados | pendente |
+| 0.3 | 05/10/2026 | Celso do Vale | Remissão ao HAB-03 de autorização operacional e governança de dados, com DPA no mesmo documento; ratificação sem condição antes de geração; parecer do ciclo 1 em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf; proposta permanece em revisão, fora da aprovação do APR-01 | pendente |
