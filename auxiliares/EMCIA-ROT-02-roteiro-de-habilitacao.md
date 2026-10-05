@@ -2,9 +2,9 @@
 
 | Metadado | Valor | Metadado | Valor |
 | :--- | :--- | :--- | :--- |
-| **Código** | EMCIA-ROT-02 | **Versão** | 1.0 |
-| **Data** | 03/10/2026 | **Estado** | Aprovado |
-| **Responsável** | Celso do Vale | **Aprovação** | Celso do Vale · 03/10/2026 |
+| **Código** | EMCIA-ROT-02 | **Versão** | 1.1 |
+| **Data** | 05/10/2026 | **Estado** | Em revisão |
+| **Responsável** | Celso do Vale | **Aprovação** | pendente |
 | **Fase** | Anterior a F0 | **Passo** | 0a–0d |
 
 ---
@@ -15,7 +15,7 @@ Conduzir a habilitação por perguntas e ações que permitam conferir os quatro
 ## 2. Escopo e aplicação
 Usar desde o primeiro contato com a organização, segundo o EMCIA-HAB-01. O comando /eiac-campo:habilitacao apoia o registro administrativo; o engenheiro inicializa o expediente fora de repositórios e da sessão do agente. A referência técnica eiac-campo/reference/habilitacao.md documenta formatos; o procedimento permanece neste roteiro e no protocolo.
 
-O código EMCIA-ROT-02 substitui o identificador provisório EMCIA-HAB-02 do roteiro, que colidia com o template HAB-02 de confidencialidade. Os templates HAB-01/02/03 conservam seus códigos e conteúdos.
+O código EMCIA-ROT-02 substitui o identificador provisório EMCIA-HAB-02 do roteiro, que colidia com o template HAB-02 de confidencialidade. Os templates HAB-01/02/03 conservam seus códigos; o HAB-03 passa a se denominar Termo de Autorização Operacional e Governança de Dados, com DPA vinculante no Anexo I, sem acrescentar documento a 0b.
 
 ## 3. Conteúdo
 
@@ -76,12 +76,16 @@ A falta de qualquer um impede o início do percurso.
 3. Vocês autorizam que documentos e dados do processo sejam processados por um modelo de IA de terceiro? Qual provedor e qual localização de processamento são aceitáveis?
 4. Há dado pessoal ou sensível no processo? Que regra de anonimização precisa ser seguida?
 5. Está claro que o serviço entrega diagnóstico e especificação, e não implanta, não integra sistemas e não opera a solução?
+6. O cliente documentou as bases legais cabíveis, sua avaliação de legítimo interesse e o RIPD quando necessário, e indicou os contatos para incidentes, titulares e oposição à gravação?
+7. Foram conferidos os subprocessadores e as finalidades declaradas no HAB-03, os termos comerciais efetivos e os mecanismos de transferência internacional aplicáveis?
 
 **Ações do engenheiro**
 
 - [ ] Emitir a carta de escopo com o processo-alvo, as fases F0 a F4, os cinco entregáveis e o limite do serviço.
 - [ ] Firmar o acordo de confidencialidade.
-- [ ] Obter o termo de consentimento para gravação das sessões e uso do dado, incluindo o provedor de modelo que será usado.
+- [ ] Conferir a aprovação dos templates pelo hash no APR-01 e a ratificação jurídica sem condição sobre os hashes exatos de HAB-02 e HAB-03. O parecer condicionado do ciclo 1 não libera geração; as minutas 0.3 permanecem indisponíveis para cliente até ratificação e nova linha de base aprovada.
+- [ ] Obter o HAB-03 — Termo de Autorização Operacional e Governança de Dados, em auxiliares/HAB-03-termo-de-autorizacao-e-governanca-de-dados.md, com Anexo I (DPA) na mesma assinatura. Conferir cliente Controlador, EMCIA Operadora, subprocessadores autorizados, limites de acesso e processamento e mecanismos de transferência internacional. A autorização operacional não constitui consentimento dos titulares.
+- [ ] Conferir a comunicação prévia da gravação aos participantes, seu canal interno de oposição e a retenção até o encerramento do caso; registrar restrições e encaminhar oposições ao Controlador antes da captação afetada.
 
 **Passa se:** os três documentos estão assinados por quem tem competência.
 
@@ -180,3 +184,4 @@ EMCIA-HAB-01, EMCIA-CAN-01, EMCIA-MAN-01, EMCIA-CTX-01 §3.7 e EMCIA-TRA-01; aux
 | 0.2 | 2026-10 | Celso do Vale | Revisão da edição anterior sem versão explícita; renomeação de EMCIA-HAB-02 para EMCIA-ROT-02 devido ao conflito com o template HAB-02; checklist de 0d conforme decisões 039–042, sem cópia manual do método ou escrita direta em fontes, e vínculo RH em P2 | pendente |
 | 0.3 | 2026-10 | Celso do Vale | Aprovação documental por Celso do Vale; referência operacional atualizada para o playbook 0.4.19 | Celso do Vale — 03/10/2026 |
 | 1.0 | 03/10/2026 | Celso do Vale | Primeira linha de base aprovada (metodo-v1.0), sem alteração de conteúdo em relação à v0.3 | Celso do Vale |
+| 1.1 | 05/10/2026 | Celso do Vale | Checklist de formalização com autorização operacional, DPA, bases legais, subprocessadores, gravação e ratificação jurídica por hash; parecer jurídico do ciclo 1 em revisoes-juridicas/2026-10-05-ciclo-1/parecer.pdf; nova aprovação pendente | pendente |
