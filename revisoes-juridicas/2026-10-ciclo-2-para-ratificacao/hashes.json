@@ -1,0 +1,25 @@
+{
+  "data": "05/10/2026",
+  "estado": "Em revisão",
+  "aprovacao": "pendente",
+  "documentos": [
+    {
+      "codigo": "HAB-02",
+      "template": "auxiliares/HAB-02-acordo-confidencialidade.md",
+      "sha256_template": "45aa3e33334bce97a197bb5f99a16e8b7828ebd3315b735cf59e3960c990fa3f",
+      "markdown": "HAB-02-acordo-confidencialidade.md",
+      "sha256_markdown": "9646eddc5e07ceaae5db9fd607e9b27d87e8fc39770001cd71695a0a77357f79",
+      "pdf": "HAB-02-acordo-confidencialidade.pdf",
+      "sha256_pdf": "9634f1379097aa26dbb9c05a04a7b19dce2d305b67c5c7d9187040e058d0a610"
+    },
+    {
+      "codigo": "HAB-03",
+      "template": "auxiliares/HAB-03-termo-de-autorizacao-e-governanca-de-dados.md",
+      "sha256_template": "285f5b91fb58981d7f2d0260ece55f41ec1e4215abaca77081df1fa936500ba0",
+      "markdown": "HAB-03-termo-de-autorizacao-e-governanca-de-dados.md",
+      "sha256_markdown": "d0cc0a117ab995fc9bb75369f2afd00c398764330e95f22c3ca1a31cff9eaa56",
+      "pdf": "HAB-03-termo-de-autorizacao-e-governanca-de-dados.pdf",
+      "sha256_pdf": "d3b8c7ecb1dca2d7694ad04ae6662f4ea4908124c5ec11d8d4090c71307990af"
+    }
+  ]
+}
